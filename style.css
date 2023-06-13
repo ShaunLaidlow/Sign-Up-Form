@@ -80,6 +80,15 @@ button{
     padding-bottom: 20px;
 }
 
+input:focus{
+    outline: none;
+    border: 2px solid blue;
+}
+
+a:hover{
+    color: green;
+}
+
 .input{
     display: flex;
     flex-flow: column wrap;
